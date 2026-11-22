@@ -1,18 +1,17 @@
 cff-version: 1.2.0
 message: "If you use or build on this work, please cite it and credit fgfgfgli."
-title: "Canon EOS R1 firmware research: card boot, burst throttle, AF detection rate, 6K OpenGate"
-abstract: "An independent security/interoperability research record for the Canon EOS R1 (firmware 1.3.0): boot chain, USB factory channel, page-table remapping, burst-throttle behaviour, AF detection rate, and the 6K OpenGate failure path. Documentation only; no firmware, keys, payloads or tools."
+title: "Canon EOS R1 burst-throttle research"
+abstract: "A research note on the Canon EOS R1 burst behaviour: the pause is caused by the front buffer filling up, not by a frame-count quota; rewriting the 'continue' rule into the camera's own suspend path yields a non-blocking 'shoot, pause briefly, continue' behaviour (about 15-20 fps equivalent). Documentation only; no firmware, keys, payloads or tools."
 authors:
   - name: "fgfgfgli"
-version: "2026-11-18"
-date-released: "2026-11-18"
+date-released: "2026-11-23"
 url: "https://github.com/fgfgfgli/eos-r1-firmware-research"
 repository-code: "https://github.com/fgfgfgli/eos-r1-firmware-research"
 license: "CC-BY-NC-4.0"
 keywords:
   - Canon EOS R1
+  - burst throttle
+  - burst mode
   - firmware research
   - interoperability
-  - burst throttle
-  - card boot
   - reverse engineering
