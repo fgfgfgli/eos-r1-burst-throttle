@@ -1,5 +1,8 @@
 # 02 · 卡启动：BootDisk + AUTOEXEC
 
+> **Credit / 署名**：Canon EOS R1 research by **fgfgfgli** — 基于本文做新机型研究时，请注明作者并附仓库链接（CC BY-NC 4.0）。 / If you build on this, credit the author and link <https://github.com/fgfgfgli/eos-r1-firmware-research>.
+
+
 > 目标：让相机**冷启动时**从 CFexpress 卡执行我们自己的代码，不使用 USB。
 > 结论：**在"BootDisk 已启用、卡标记与载荷已准备"的条件下，冷启动驻留桥成功**；但**出厂默认状态下的零持久写**这个更严格的目标**没有证明**（见 §6）。
 > 另外，最后成功的路径和最初的设想完全不同——不是"写固件"，而是"接管页表源"。

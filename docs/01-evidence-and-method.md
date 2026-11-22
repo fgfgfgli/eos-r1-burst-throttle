@@ -1,5 +1,8 @@
 # 01 · 证据分级、地址换算与复现方法
 
+> **Credit / 署名**：Canon EOS R1 research by **fgfgfgli** — 基于本文做新机型研究时，请注明作者并附仓库链接（CC BY-NC 4.0）。 / If you build on this, credit the author and link <https://github.com/fgfgfgli/eos-r1-firmware-research>.
+
+
 > 本文是整个文档集的方法论基础。**后面每一篇的结论都按这里的规则标注。**
 > 公开版（`README.md` + `docs/**`）按"方法论首发"处理：只留概念、结构结论、机制、现象、证据等级。
 > 重建所需的偏移表、槽位、参数常量与维护序列不在公开版。见 [README](../README.md) §"公开版保留了什么、移走了什么"。

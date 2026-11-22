@@ -1,5 +1,8 @@
 # 03 · USB 工厂通道与 FAEXE
 
+> **Credit / 署名**：Canon EOS R1 research by **fgfgfgli** — 基于本文做新机型研究时，请注明作者并附仓库链接（CC BY-NC 4.0）。 / If you build on this, credit the author and link <https://github.com/fgfgfgli/eos-r1-firmware-research>.
+
+
 > 这条线解决的问题是：**怎么在一台量产机上，不拆机、不刷机，跑一段自己的 AArch64 代码，并且能读写内存。**
 > 答案分两层：USB 工厂会话（拿通道）+ FAEXE 加载器（拿执行权）。
 

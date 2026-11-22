@@ -1,5 +1,8 @@
 # 05 · 连拍降速与节流
 
+> **Credit / 署名**：Canon EOS R1 research by **fgfgfgli** — 基于本文做新机型研究时，请注明作者并附仓库链接（CC BY-NC 4.0）。 / If you build on this, credit the author and link <https://github.com/fgfgfgli/eos-r1-firmware-research>.
+
+
 > 用户的原话是"**卡启动 r1 连拍降速不停**"。
 > 这一项**做成了**——但它不是"改一个数字"，中间有三轮失败，而且最后的方案跟最初的设想完全相反。
 >

@@ -1,5 +1,8 @@
 # 07 · 6K OpenGate 与 Err70
 
+> **Credit / 署名**：Canon EOS R1 research by **fgfgfgli** — 基于本文做新机型研究时，请注明作者并附仓库链接（CC BY-NC 4.0）。 / If you build on this, credit the author and link <https://github.com/fgfgfgli/eos-r1-firmware-research>.
+
+
 > 目标：让 6K RAW 视频录出 **3:2 全高（约 6000×4000）**，而不是现在的 17:9（6000×3164）。
 > 结果：**没有做成。** 但根因被收窄到一条具体的断言上，这是本轮最接近答案的结论。
 >

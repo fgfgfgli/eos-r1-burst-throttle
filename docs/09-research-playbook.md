@@ -1,5 +1,8 @@
 # 09 · 研究流程：从一个问题到一条可复核结论
 
+> **Credit / 署名**：Canon EOS R1 research by **fgfgfgli** — 基于本文做新机型研究时，请注明作者并附仓库链接（CC BY-NC 4.0）。 / If you build on this, credit the author and link <https://github.com/fgfgfgli/eos-r1-firmware-research>.
+
+
 > 这份文档教的是**怎么研究**，不是**怎么复现本项目的补丁**。它适用于任何一台你想做互操作性/安全研究的相机。
 > 具体机型的密钥、写卡偏移、钩子地址、载荷字节**不在公开版**——这里给的是方法、判据和安全边界。
 

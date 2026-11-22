@@ -1,5 +1,8 @@
 # 04 · 页表权限与重映射
 
+> **Credit / 署名**：Canon EOS R1 research by **fgfgfgli** — 基于本文做新机型研究时，请注明作者并附仓库链接（CC BY-NC 4.0）。 / If you build on this, credit the author and link <https://github.com/fgfgfgli/eos-r1-firmware-research>.
+
+
 > 本文解释一件反直觉的事：**为什么"能写固件"是假的，"能改代码"却是真的。**
 > 这也是整个项目从"改固件"转向"换页表"的分水岭。
 >

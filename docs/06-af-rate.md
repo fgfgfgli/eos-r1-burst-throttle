@@ -1,5 +1,8 @@
 # 06 · 每秒 AF 检测次数
 
+> **Credit / 署名**：Canon EOS R1 research by **fgfgfgli** — 基于本文做新机型研究时，请注明作者并附仓库链接（CC BY-NC 4.0）。 / If you build on this, credit the author and link <https://github.com/fgfgfgli/eos-r1-firmware-research>.
+
+
 > 用户的问题：R1 的对焦检测能不能做到更快？
 > 短答案：**我们在两个 4K 视频窗口里测到约 59.9 次/秒，与 60 fps 量级相符**；机制上它看起来由"每秒有多少个 DAF raw 帧"决定，`[I]`，而且**不能**由此推出"全模式严格等于 LV 帧率"或"软件上限已排除"。
 >

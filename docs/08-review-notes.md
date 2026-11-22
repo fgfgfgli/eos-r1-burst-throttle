@@ -1,5 +1,8 @@
 # 08 · 外部复核意见与被推翻的结论
 
+> **Credit / 署名**：Canon EOS R1 research by **fgfgfgli** — 基于本文做新机型研究时，请注明作者并附仓库链接（CC BY-NC 4.0）。 / If you build on this, credit the author and link <https://github.com/fgfgfgli/eos-r1-firmware-research>.
+
+
 > 这个项目有一个不太常见的习惯：**每条关键结论都送出去让人拆。**
 > 本文记录外部复核说了什么，以及哪些结论后来被推翻——包括被我们自己推翻的，以及被复核者指出"写过头了"的。
 
