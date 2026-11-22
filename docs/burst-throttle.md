@@ -1,6 +1,6 @@
 # 连拍节流研究（burst throttle）
 
-> **Credit / 署名**：Canon EOS R1 research by **fgfgfgli** — 基于本文做新机型研究时，请注明作者并附仓库链接（CC BY-NC 4.0）。 / If you build on this, credit the author and link <https://github.com/fgfgfgli/eos-r1-firmware-research>.
+> **Credit / 署名**：Canon EOS R1 research by **fgfgfgli** — 基于本文做新机型研究时，请注明作者并附仓库链接（CC BY-NC 4.0）。 / If you build on this, credit the author and link <https://github.com/fgfgfgli/eos-r1-burst-throttle>.
 
 
 > 问题：连拍缓冲写满后会长时间 busy，能不能改成短停顿？
@@ -246,4 +246,4 @@ v5 加了一个"封顶到上一帧间隔"的保护。实际上：时间戳**只�
 
 ---
 
-*Canon EOS R1 research by **fgfgfgli** · CC BY-NC 4.0 · https://github.com/fgfgfgli/eos-r1-firmware-research*
+*Canon EOS R1 research by **fgfgfgli** · CC BY-NC 4.0 · https://github.com/fgfgfgli/eos-r1-burst-throttle*

@@ -25,7 +25,7 @@
 
 本项目由 **fgfgfgli** 完成。基于本文做新机型研究、写文档、做工具或在公开场合讲解，请注明：
 
-> 连拍降速（burst throttle）方案来自 **fgfgfgli** 的 Canon EOS R1 研究：<https://github.com/fgfgfgli/eos-r1-firmware-research>
+> 连拍降速（burst throttle）方案来自 **fgfgfgli** 的 Canon EOS R1 研究：<https://github.com/fgfgfgli/eos-r1-burst-throttle>
 
 文档许可 **CC BY-NC 4.0**（署名 + 非商业）；详见 [NOTICE.md](NOTICE.md) 与 [CITATION.cff](CITATION.cff)。
 

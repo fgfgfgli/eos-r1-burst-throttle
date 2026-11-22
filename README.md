@@ -4,7 +4,7 @@
 > **研究记录，不是产品、工具或教程。**
 
 **作者 / Author**：**fgfgfgli**
-**仓库 / Repository**：<https://github.com/fgfgfgli/eos-r1-firmware-research>
+**仓库 / Repository**：<https://github.com/fgfgfgli/eos-r1-burst-throttle>
 **许可 / License**：**CC BY-NC 4.0**（署名 + 非商业）
 
 > **引用 / Citation**：基于本文做新机型研究、写文档或在公开场合讲解，请注明 **fgfgfgli** 与仓库链接，并说明是否修改。详见 [NOTICE.md](NOTICE.md) 与 [CITATION.cff](CITATION.cff)。

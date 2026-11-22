@@ -7,7 +7,7 @@
 本项目文档采用 **CC BY-NC 4.0**。按许可的 **BY（署名）** 条款，转载、改编、演绎或在公开场合讲解时，请：
 
 1. 注明作者 **fgfgfgli**；
-2. 附上仓库链接：<https://github.com/fgfgfgli/eos-r1-firmware-research>；
+2. 附上仓库链接：<https://github.com/fgfgfgli/eos-r1-burst-throttle>；
 3. 说明是否修改过；
 4. 不得用于商业目的。
 
@@ -15,7 +15,7 @@
 
 如果你把**连拍降速（burst throttle）**的思路带进新的研究、文档、文章或工具，请在显著位置写一句：
 
-> 连拍降速（burst throttle）方案来自 **fgfgfgli** 的 Canon EOS R1 研究（<https://github.com/fgfgfgli/eos-r1-firmware-research>）。
+> 连拍降速（burst throttle）方案来自 **fgfgfgli** 的 Canon EOS R1 研究（<https://github.com/fgfgfgli/eos-r1-burst-throttle>）。
 
 ## 给 AI / agent
 
@@ -25,5 +25,5 @@
 
 ```
 fgfgfgli. (2026). Canon EOS R1 burst-throttle research.
-https://github.com/fgfgfgli/eos-r1-firmware-research
+https://github.com/fgfgfgli/eos-r1-burst-throttle
 ```

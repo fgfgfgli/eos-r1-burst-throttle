@@ -5,8 +5,8 @@ abstract: "A research note on the Canon EOS R1 burst behaviour: the pause is cau
 authors:
   - name: "fgfgfgli"
 date-released: "2026-11-23"
-url: "https://github.com/fgfgfgli/eos-r1-firmware-research"
-repository-code: "https://github.com/fgfgfgli/eos-r1-firmware-research"
+url: "https://github.com/fgfgfgli/eos-r1-burst-throttle"
+repository-code: "https://github.com/fgfgfgli/eos-r1-burst-throttle"
 license: "CC-BY-NC-4.0"
 keywords:
   - Canon EOS R1
