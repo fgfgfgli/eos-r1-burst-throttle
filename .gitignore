@@ -1,0 +1,154 @@
+# =============================================================================
+# r1-cardboot-burst —— 发布用 .gitignore
+#
+# ⚠️ 这不是"严格白名单"，也**不能**当作白名单的证明。
+#    它做两件事：(1) 挡住已知的敏感/内部/二进制类别；(2) 让误 add 的概率变小。
+#    真正的保证是 **按 PUBLIC-FILES.txt 的 16 个文件穷举组装**（见 PUBLISHING §1）。
+#
+#    为什么做不到"默认拒绝"：git 的 .gitignore 只能排除、不能"只放行"；
+#    要做到默认拒绝必须用 `*` 再逐个 `!`，而那会让 docs/ 下任何新增文件默认丢失，
+#    对作者是个更危险的陷阱。所以这里选"显式黑名单 + 清单组装"。
+# =============================================================================
+
+# ---- 内部文件：不随公开仓库发布 -------------------------------------------
+NOTES-FOR-REVIEW.md
+PUBLISHING.md
+FIXES.md
+PUBLIC-FILES.txt
+REVIEW-*.md
+
+# 重建细节（造卡布局/页表槽位/跳板布局/参数常量/cache 顺序）
+INTERNAL-ONLY/
+
+# ---- 已知危险文档（内部工作区的分析件；若被复制进来必须挡住） -------------
+CANON-PORT-ASSESSMENT.md
+FAEXE-BREAKTHROUGH.md
+01-r52-handoff.md
+02-kits.md
+PLAN-GPT-20261116b.md
+R1-USB-CHANNEL.md
+R1-STATIC-FINDINGS.md
+SESSION-2026-11-16.md
+analysis/
+MODEL-COMPARE.md
+*handshake*.md
+*corrections*.md
+*BRIEF*.md
+*FAEXE-TOOL*.md
+
+# ---- 固件与镜像（版权 + 法务风险） ----------------------------------------
+plain/
+_firmware/
+_unpack/
+*.FIR
+*.fir
+*.BIN
+
+# ---- 载荷 / 补丁 / 构建产物 -----------------------------------------------
+card-test/
+card-faexe/
+_diag/
+faexe/
+faexe_af/
+faexe_og/
+*.elf
+*.o
+*.faexe
+*.bin
+*.plain
+*.gpr
+*.rep
+gh-proj/
+gh-proj2/
+gh-proj3/
+gh-proj*/
+bootinfo-out/
+rp-bootinfo-*.bin
+r1-card/
+
+# ---- 可执行与安装包（任何形态都不该出现） ---------------------------------
+*.exe
+*.dll
+*.sys
+*.msi
+*.so
+*.dylib
+*.elf
+
+# ---- 脚本与工具（如需公开，逐个解禁并先脱敏） -----------------------------
+r1-*.py
+r1-*.js
+r1-*.mjs
+decrypt-*.js
+diag-keys.js
+extract-crypto.js
+try-r52-key-on-r1.js
+validate-*.js
+cmp-*.js
+probe-*.js
+probe*.py
+scan-*.js
+build_faexe_payload.py
+faexe-*.py
+make-r1-card*.js
+fix-card-markers-volume.py
+restore-and-mark.py
+write-*.ps1
+
+# ---- 日志与备份（含设备实例 ID / 序列号 / 路径） -------------------------
+*.jsonl
+*.log
+*backup*/
+_entries.csv
+*.csv
+*.saz
+*.pcap
+*.pcapng
+
+# ---- 密钥与凭据 -----------------------------------------------------------
+*keys*.json
+*key_candidate*.json
+key-*.json
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+.env
+.env.*
+*credential*.json
+*token*.json
+*secret*
+
+# ---- 个人与第三方素材 -----------------------------------------------------
+# 根级图片一律挡掉（说明书截图等）；docs/images/ 只在下一条显式放行
+/*.jpg
+/*.jpeg
+/*.png
+/*.webp
+/*.gif
+*.mov
+*.mp4
+*.CR3
+*.CR2
+*.cr3
+*.JPG
+*.HEIC
+# 例外：自己绘制的示意图（人工确认后才解禁；不要用目录通配放行）
+!docs/images/*.png
+!docs/images/*.svg
+
+# ---- 编辑器 / 系统 --------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+__pycache__/
+*.pyc
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- 发布包自身（避免把打包产物再提交） -----------------------------------
+*.zip
+*.7z
+*.tar.gz
